@@ -2,7 +2,7 @@ import React from 'react'
 import "./Sidebar.css"
 import { Chat as ChatIcon, DonutLarge, MoreVert as MoreVertIcon, SearchOutlined } from '@mui/icons-material'
 import {Avatar, IconButton} from '@mui/material'
-import Room from './Room'
+import Room from './RoomPreview'
 
 function Sidebar() {
   return (
