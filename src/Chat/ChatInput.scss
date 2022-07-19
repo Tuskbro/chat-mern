@@ -1,0 +1,26 @@
+.chatInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border: 1px solid lightgrey;
+
+    form{
+        flex:1;
+        display: flex;
+        input{
+            flex: 1;
+            border-radius: 30px;
+            padding: 10px;
+            border: none;
+        }
+        button{
+            display: none;
+        }
+    }
+    .MuiSvgIcon-root {
+        padding: 10px;
+        color: gray;
+    }
+}
+
